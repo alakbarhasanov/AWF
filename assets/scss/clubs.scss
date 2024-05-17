@@ -1,0 +1,244 @@
+header {
+    background-color: #7245E5;
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .head-logo {
+            width: 200px;
+            height: 100px;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                gap: 20px;
+
+                li {
+                    list-style: none;
+                    color: white;
+                    font-weight: 600;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+main{
+    .clubs-head {
+        h1 {
+            font-weight: bold;
+            font-size: 45px;
+            margin-top: 50px;
+        }
+    }
+
+    .image-desc{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        .image{
+            img{
+                width: 130px;
+            }
+        }
+        .desc{
+            margin-left:80px;
+            h1{
+                font-weight: bold;
+            }   
+            p{
+                font-weight: 600;
+                color: rgb(77, 77, 77);
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    height: 450px;
+
+    .icon-phone {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 15px;
+
+        .iconPhone {
+            margin-top: 10px;
+
+            i {
+                color: red;
+                font-size: 22px;
+            }
+        }
+
+        .phoneNumber {
+            margin-left: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+                font-size: 22px;
+                font-weight: 600;
+
+                &:hover {
+                    color: #7a3ce6;
+                }
+            }
+        }
+    }
+
+    .icon-mail {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 15px;
+
+        .iconMail {
+            margin-top: 5px;
+
+            i {
+                color: red;
+                font-size: 22px;
+            }
+        }
+
+        .mailAddress {
+            margin-left: 10px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 17px;
+                font-weight: 600;
+
+                &:hover {
+                    color: #7a3ce6;
+                }
+            }
+        }
+    }
+
+    .faydali {
+        color: white;
+        margin-top: 35px;
+    }
+
+    .line {
+        background-color: #4473de;
+        height: 3px;
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-left: -32px;
+        margin-top: 30px;
+
+        li {
+            list-style: none;
+            margin-top: 15px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+                font-weight: 600;
+
+                &:hover {
+                    color: #7a3ce6;
+                }
+            }
+        }
+    }
+
+    .wrestling {
+        color: white;
+        margin-top: 35px;
+    }
+
+    .line {
+        background-color: #4473de;
+        height: 3px;
+        width: 30px;
+        margin-top: 15px;
+    }
+
+
+    ul {
+        margin-left: -32px;
+        margin-top: 30px;
+
+        li {
+            list-style: none;
+            margin-top: 15px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+                font-weight: 600;
+
+                &:hover {
+                    color: #7a3ce6;
+                }
+            }
+        }
+    }
+
+
+    .follow {
+        color: white;
+        margin-top: 35px;
+    }
+
+    .line {
+        background-color: #4473de;
+        height: 3px;
+        width: 30px;
+        margin-top: 15px;
+    }
+    
+    form {
+        input {
+            background-color: black;
+            border: none;
+            border: 1px solid #3D3D3D;
+            width: 100%;
+            height: 46px;
+            border-radius: 50px;
+            padding-left: 10px;
+            margin-top: 25px;
+        }
+    }
+
+    .soci-icon{
+        display: flex;
+        li{
+            margin-right: 20px;
+            a{
+                i{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #262626;
+                    border-radius: 50%;
+                    padding-left: 10px;
+                    padding-top: 7px;
+                }
+            }
+        }
+    }
+
+}

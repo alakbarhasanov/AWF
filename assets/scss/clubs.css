@@ -1,0 +1,193 @@
+header {
+  background-color: #7245E5;
+}
+header .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .head .head-logo {
+  width: 200px;
+  height: 100px;
+}
+header .head nav ul {
+  display: flex;
+  gap: 20px;
+}
+header .head nav ul li {
+  list-style: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+header .head nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main .clubs-head h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 50px;
+}
+main .image-desc {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+main .image-desc .image img {
+  width: 130px;
+}
+main .image-desc .desc {
+  margin-left: 80px;
+}
+main .image-desc .desc h1 {
+  font-weight: bold;
+}
+main .image-desc .desc p {
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+}
+
+footer {
+  margin-top: 150px;
+  background-color: black;
+  height: 450px;
+}
+footer .icon-phone {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+footer .icon-phone .iconPhone {
+  margin-top: 10px;
+}
+footer .icon-phone .iconPhone i {
+  color: red;
+  font-size: 22px;
+}
+footer .icon-phone .phoneNumber {
+  margin-left: 5px;
+}
+footer .icon-phone .phoneNumber a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-size: 22px;
+  font-weight: 600;
+}
+footer .icon-phone .phoneNumber a:hover {
+  color: #7a3ce6;
+}
+footer .icon-mail {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+footer .icon-mail .iconMail {
+  margin-top: 5px;
+}
+footer .icon-mail .iconMail i {
+  color: red;
+  font-size: 22px;
+}
+footer .icon-mail .mailAddress {
+  margin-left: 10px;
+}
+footer .icon-mail .mailAddress a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+footer .icon-mail .mailAddress a:hover {
+  color: #7a3ce6;
+}
+footer .faydali {
+  color: white;
+  margin-top: 35px;
+}
+footer .line {
+  background-color: #4473de;
+  height: 3px;
+  width: 30px;
+  margin-top: 15px;
+}
+footer ul {
+  margin-left: -32px;
+  margin-top: 30px;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-weight: 600;
+}
+footer ul li a:hover {
+  color: #7a3ce6;
+}
+footer .wrestling {
+  color: white;
+  margin-top: 35px;
+}
+footer .line {
+  background-color: #4473de;
+  height: 3px;
+  width: 30px;
+  margin-top: 15px;
+}
+footer ul {
+  margin-left: -32px;
+  margin-top: 30px;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-weight: 600;
+}
+footer ul li a:hover {
+  color: #7a3ce6;
+}
+footer .follow {
+  color: white;
+  margin-top: 35px;
+}
+footer .line {
+  background-color: #4473de;
+  height: 3px;
+  width: 30px;
+  margin-top: 15px;
+}
+footer form input {
+  background-color: black;
+  border: none;
+  border: 1px solid #3D3D3D;
+  width: 100%;
+  height: 46px;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+footer .soci-icon {
+  display: flex;
+}
+footer .soci-icon li {
+  margin-right: 20px;
+}
+footer .soci-icon li a i {
+  width: 30px;
+  height: 30px;
+  background-color: #262626;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-top: 7px;
+}/*# sourceMappingURL=clubs.css.map */
